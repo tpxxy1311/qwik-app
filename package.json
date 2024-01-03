@@ -5,9 +5,6 @@
     "node": ">=15.0.0"
   },
   "private": true,
-  "trustedDependencies": [
-    "sharp"
-  ],
   "type": "module",
   "scripts": {
     "build": "qwik build",
@@ -40,7 +37,5 @@
     "vite-tsconfig-paths": "^4.2.1"
   },
   "dependencies": {
-    "@img/sharp-win32-x64": "^0.33.1",
-    "sharp": "^0.33.1"
   }
 }
