@@ -1,4 +1,4 @@
-import { Slot, component$ } from "@builder.io/qwik";
+import {  component$ } from "@builder.io/qwik";
 import styles from "./userlist.module.css";
 import User from "../user/user";
 
@@ -7,7 +7,7 @@ export default component$(({users}) => {
     <div class={styles.userbox}>
       <ul>
         {users.map((user:any)=>
-            <User user={user}/>
+            <User key={user.id} user={user}/>
         )}
       </ul>
     </div>
