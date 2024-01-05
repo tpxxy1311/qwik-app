@@ -1,0 +1,13 @@
+.listitem {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2%;
+}
+
+.listitem p{
+    display: inline-block;
+    margin: 0;
+}

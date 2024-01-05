@@ -90,6 +90,8 @@ ul {
 }
 .container.container-purple {
   background: var(--qwik-light-purple);
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 .container.container-dark {
   background: var(--qwik-dark-background);

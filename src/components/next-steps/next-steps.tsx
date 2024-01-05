@@ -43,7 +43,7 @@ export default component$(() => {
   );
 
   return (
-    <div class="container container-purple container-center">
+    <div class={["container container-purple container-center", styles.nextstepWrapper]}>
       <h2>
         Time for a
         <br />

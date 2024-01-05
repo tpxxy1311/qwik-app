@@ -1,3 +1,8 @@
+.nextstepWrapper {
+  border-radius: 20px;
+  margin-top: 50px;
+}
+
 .gettingstarted {
   display: flex;
   color: white;
